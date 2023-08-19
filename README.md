@@ -24,7 +24,7 @@ This function calls the other two functions and defines some figures necessary t
 It is a collection of small pieces or functions to perform tasks necessary to store data.
 
 ### hazard_class.py
-In this file are defined all class for hazard analysis.
+In this file are defined all classes for hazard analysis.
 - Hazard id
 - Hazard statement
 - Undesirable Event
