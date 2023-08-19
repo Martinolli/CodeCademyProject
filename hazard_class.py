@@ -5,46 +5,46 @@ Created on Thu Aug 10 08:03:28 2023
 @author: Joao.Bosco/ChatGpt
 
 This code describes the classes used to define a "Hazard Analysis,"
-It is not completed or exhaustive but it encapsule the followiing
+It is not completed or exhaustive, but it encapsulate the following
 hazard elements according to good practices:
     1 - Class Hazard:
-        hazard Id.
+        Hazard Id.
         Hazard Statement - a Hazard Description
         Undesirable Event.
         Date and time from Analysis.
     2 - Class Undesirable Event:
         Undesirable Event Description
-        The Likelihood associated with, it is qualitative value.
-        Oucomes related with the Safety Event
-        Safety Events associated with Undesirable Event - Causes
+        The Likelihood associated with it is qualitative value.
+        Outcomes Related to the Safety Event
+        Safety Events associated with Undesirable Events - Causes
     3 - Class Likelihood:
         Likelihood Level; 1 to 5
         Likelihood Description: from Very Low to High.
     4 - Class Safety Events:
         Safety Event Description - The main causes for Undesirable Event
         Safety Event ID - Identification for each Safety Event
-        Barriers - The main Barriers to avoid escalation to Undesirable Event
+        Barriers - The main Barriers to avoiding escalation to an Undesirable Event
     5 - Barriers:
         Barrier ID - For each barrier has one Id
-        Barrier Description - Detailed description of strategy to avoid the
+        Barrier Description - Detailed description of a strategy to avoid the
         Undesirable event or to avoid escalation from Safety Event to
         Undesirable event
     6 - Outcomes:
         Outcome Description - The probable consequence after the Undesirable 
-        Event, is acceptable more than one outcome, for example; assests 
+        The event is acceptable for more than one outcome, for example, assets 
         consequences, people consequences, material, environment, etc.
-        Severity - For each outcome one severity index and class.
-        Mitigation - for each outcome more than one mitigation strategy could
+        Severity - For each outcome, one severity index and class.
+        Mitigation - for each outcome, more than one mitigation strategy could
         be defined.
-        Risks - for each outcome one level of risk, related to undesirable 
+        Risks - for each outcome, one level of risk related to undesirable 
         event likelihood and outcome severity, and the risk assessment.
     7 - Severity:
         Level - according to the table below
         Description - according to the table below
     8 - Mitigation:
-        Description - type of mitigation strategy, for each outcome more than
+        Description - a type of mitigation strategy for each outcome of more than
         one mitigation is possible
-        Mitigation Id - for each outcome one Id is generated
+        Mitigation Id - for each outcome, one Id is generated
     9 - Risk Index:
         Risk Index - is the result of "likelihood" and "severity" for each
         outcome
@@ -56,21 +56,21 @@ Remarks:
 	Vertical Axe = Likelihood Levels
 	Risk Index and Risk Assessment Levels are in the Matrix Box
 
-	The Severity Levels and Likelihood Levels can be change accordingly.
+	The Severity Levels and Likelihood Levels can be changed accordingly.
 
 ----------------------------------------------------------------------
-    		    -       Minor Moderate Severe Critical Catastrophic  -
-     		    -         1      2       3       4          5        -
-----------------------------------------------------------------------                                                    -
+-                       Minor Moderate Severe Critical Catastrophic  -
+-                         1      2       3       4          5        -
+----------------------------------------------------------------------
    Very High	-  5	  5     10      15      20         25        -
-----------------------------------------------------------------------                                                    -
+----------------------------------------------------------------------
      High       -  4	  4      8      12      16         20        -
-----------------------------------------------------------------------                                                    -
+----------------------------------------------------------------------
     Medium      -  3	  3      6       9      12         15        -
 ---------------------------------------------------------------------- 						                             -
      Low        -  2      2      4       6       8         10        -
 ----------------------------------------------------------------------						                             -
-   Very Low	    -  1	  1      2       3       4          5        -
+   Very Low	-  1	  1      2       3       4          5        -
 ----------------------------------------------------------------------						                             -
 
 """
