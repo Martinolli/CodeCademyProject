@@ -1,0 +1,38 @@
+This is a test file!
+Hazard ID: HZ_0001_20241013
+Hazard Statement: Halcon Campaign
+Undesirable Event: Event Description: Test 1
+Likelihood: [2, 'Low']
+Outcomes: Outcome Description: Lost equipment
+Outcome Severity: [3, 'Severe']
+Outcome Mitigation:,Mitigation ID: MT_0001
+Mitigation Description: Control equipment
+
+Mitigation ID: MT_0002
+Mitigation Description: mit_1
+
+Risk Level: Risk Index: 6
+Risk Assessment: Medium Level Assessment
+
+
+Safety Events: Safety Event ID: SE_0001
+Safety Event Description: 
+Safety Barriers: Barrier ID: BR_0001
+Barrier Description: Cause_1
+
+Barrier ID: BR_0002
+Barrier Description: Barrier_1
+
+Barrier ID: BR_0003
+Barrier Description: Barrier_2
+
+
+Safety Event ID: SE_0002
+Safety Event Description: Cause_2
+Safety Barriers: Barrier ID: BR_0004
+Barrier Description: Barrier_3
+
+
+
+Date Identified: 2024-10-13 14:40:33.832197
+
