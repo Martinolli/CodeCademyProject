@@ -27,8 +27,7 @@ def hazard_function():
         
             new_hazard = create_hazard()
             f.write(str(new_hazard) + "\n")
-            print(f"Hazard '{new_hazard}' written to file!\n")
-                    
+            print(f"Hazard '{new_hazard}' written to file!\n")          
         print("Hazard details written to file successfully!")
         return new_hazard
     except Exception as e:
