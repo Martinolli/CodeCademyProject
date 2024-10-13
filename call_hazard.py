@@ -35,5 +35,7 @@ def hazard_function():
         print(f"An error occurred: {str(e)}")
 
 # Call the function to test
-hazard_function()
+# Ensure the function is called only when the script is run directly
+if __name__ == "__main__":
+    hazard_function()
             
