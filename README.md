@@ -1,3 +1,4 @@
+
 # CodeCademyProject
 ## Portfolio Project Codecademy Course
 **Hazard Analysis Tool**
@@ -7,7 +8,9 @@ This piece of code is composed of the following codes:
 - main_hazard.py
 - get_constraints.py
 - hazard_class.py
+
 ### Remarks
+
 This piece of code is not exhaustive is a primary idea to generate a code to perform a hazard analysis qualitatively based on 
 the "bowtie" analysis.
 The idea is to develop a simple prototype for a more complex tool to perform risk analysis.
